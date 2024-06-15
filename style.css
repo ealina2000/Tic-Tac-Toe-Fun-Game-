@@ -131,7 +131,18 @@ section{
 
 
 @media(max-width:575.98px){
-
+    section {
+        height: 750px;
+    }
+    .msg-container {
+        height: 150px;
+        color: aliceblue;
+        margin: 20px 20px;
+    }
+    .msg-container-2 {
+        height: 150px;
+        color: aliceblue;
+    }
     .msg {
         font-family: "Outfit", sans-serif;
         color: aliceblue;
