@@ -128,3 +128,80 @@ section{
     color: #000;
     font-weight: bold;
 }
+
+
+@media(max-width:575.98px){
+
+    .msg {
+        font-family: "Outfit", sans-serif;
+        color: aliceblue;
+        font-size: 35px;
+        text-shadow: 5px 5px 5px #14ff46;
+        padding-top: 30px;
+    }
+    #newGm-btn {
+        padding: 10px;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 17px;
+        background-color: #c63cd9;
+        border: none;
+        color: #ffff;
+    }
+
+    .msg-2 {
+        font-family: "Outfit", sans-serif;
+        color: aliceblue;
+        font-size: 35px;
+        text-shadow: 5px 5px 5px #14ff46;
+        padding-top: 30px;
+    }
+    #newGm-btn-2 {
+        padding: 10px;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 17px;
+        background-color: #c63cd9;
+        border: none;
+        color: #ffff;
+    }
+    #reset-btn {
+        padding: 12px;
+        width: 40%;
+        margin-top: 30px;
+        border-radius: 30px;
+        font-size: 15px;
+        background-color: #f97509;
+        border: none;
+        color: #000;
+        font-weight: bold;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    #newGm-btn {
+        padding: 12px;
+        width: 30%;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 17px;
+        background-color: #c63cd9;
+        border: none;
+        color: #ffff;
+    }
+    #newGm-btn-2 {
+        padding: 12px;
+        width: 30%;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 17px;
+        background-color: #c63cd9;
+        border: none;
+        color: #ffff;
+    }
+}
+
+
+
+
